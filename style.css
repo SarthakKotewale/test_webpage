@@ -1,0 +1,86 @@
+/* default styling */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* headder styling */
+/* combinators */
+/* descendent selectors */
+header h1{
+    font-weight: 500;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    margin:0 2rem; /*top right bottom left */
+}
+
+nav{
+    width: 19rem;
+    position: relative;
+    top: 1rem;
+    right: 3rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+h1:hover{
+    color:coral;
+    background-color: black;
+    font-size: 2.2rem;
+}
+li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+/* class selector */
+.bg_img{
+    width: 97vw;
+}
+/* element slectore */
+article{
+    display:flex;
+    margin:1rem;
+    font-size: 1.3rem;
+}
+
+footer{
+    height: 3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-weight: 750;
+}
+footer:hover{
+    color:cornflowerblue;
+    background-color: black;
+}
+.container{
+    text-align: center;
+    margin-right: 2rem;
+    padding:0.5rem;
+}
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+a:hover{
+    color: lightsalmon;
+    font-size: 1.3rem;
+    background-color: black;
+}
+h2:hover{
+    color:lightsalmon;
+    background-color: black;
+    font-size: 2.1rem;
+}
+p:hover{
+    color:cornflowerblue;
+    
+    background-color: black;
+}
