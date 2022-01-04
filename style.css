@@ -6,7 +6,7 @@ html{
 /* combinators */
 /* descendent selectors */
 header h1{
-    font-weight: 500;
+    font-weight: 750;
 }
 
 header{
@@ -81,6 +81,5 @@ h2:hover{
 }
 p:hover{
     color:cornflowerblue;
-    
     background-color: black;
 }
