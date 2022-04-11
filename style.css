@@ -64,6 +64,7 @@ footer:hover{
     text-align: center;
     margin-right: 2rem;
     padding:0.5rem;
+    border-style: dotted dashed solid double;
 }
 a{
     text-decoration: none;
@@ -83,4 +84,9 @@ h2:hover{
 p:hover{
     color:cornflowerblue;
     background-color: black;
+}
+
+.container:hover{
+    background-color: black;
+    color : white;
 }
